@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    width:550px;
+    margin:auto;
+}
+
+.controls{
+    display:flex;
+    gap:10px;
+    padding:15px;
+}
+
+#colors{
+    display:flex;
+    height:400px;
+}
+
+.color-block{
+    flex:1;
+}
+
+#hex-values{
+    display:flex;
+    text-align:center;
+}
+
+.hex{
+    flex:1;
+    padding:10px;
+}
